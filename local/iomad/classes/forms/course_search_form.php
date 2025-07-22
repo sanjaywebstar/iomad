@@ -98,7 +98,8 @@ class course_search_form extends moodleform {
                     }
                     break;
                 case "select":
-                    $options = [0 => ''] + explode("\r\n", $attributes['options']);
+                    $options = explode("\r\n", $attributes['options']);
+                    array_unshift($options,'');
                     $mform->addElement('select', 'customfield_' . $field->shortname, format_text($field->name), $options, $attributes);
                     break;
             }
