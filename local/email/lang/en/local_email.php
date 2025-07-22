@@ -522,3 +522,10 @@ $string['microlearning_nugget_reminder2_name_help'] = 'This email is sent out to
 $string['microlearning_nugget_reminder2_subject'] = 'Reminder - New microlearning nugget for you.';
 $string['microlearning_nugget_reminder2_body'] = '<p>Hi {User_FirstName}</p>
 <p>You have not yet completed your microlearning nugget. You can access this by clicking on <a href="{Nugget_URL}">{Nugget_Name}</a> or by logging into the <a href="{SiteURL}">Site</a></p>';
+$string['quote_followup_name'] = 'Quote follow up email';
+$string['quote_followup_name_help'] = 'This email is sent out to a user when they request for a quotation.';
+$string['quote_followup_subject'] = 'Follow-up on your quote request';
+$string['quote_followup_body'] = '<p>Hi {User_FirstName}</p>
+<p>We’re following up on your recent quote request. Let us know if you have any questions or need further assistance.</p>
+<p>Regards,</p>
+<p>{Company_Name}</p>';
